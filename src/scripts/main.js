@@ -54,8 +54,8 @@ const empireStateBuilding = {
     architect: "Shreve, Lamb & Harmon"
 }
 
-console.log(empireStateBuilding.stories, empireStateBuilding.height, 
-    empireStateBuilding.squareFeet, empireStateBuilding.eastWestLength, empireStateBuilding.northSouthLength);
+console.log(`${empireStateBuilding.stories}`, `${empireStateBuilding.height}`, 
+    `${empireStateBuilding.squareFeet}`, `${empireStateBuilding.eastWestLength}`, `${empireStateBuilding.northSouthLength}`);
 
 
 empireStateBuilding['address']
