@@ -57,3 +57,24 @@ const empireStateBuilding = {
 console.log(empireStateBuilding.stories, empireStateBuilding.height, 
     empireStateBuilding.squareFeet, empireStateBuilding.eastWestLength, empireStateBuilding.northSouthLength);
 
+
+empireStateBuilding['address']
+const buildingAdd = 'address'
+console.log(empireStateBuilding[buildingAdd]);
+
+empireStateBuilding['constructionDate'];
+const buildingDate = 'constructionDate'
+console.log(empireStateBuilding[buildingDate]);
+
+empireStateBuilding['cost'];
+const buildingCost = 'cost'
+console.log(empireStateBuilding[buildingCost]);
+
+
+empireStateBuilding['owner'];
+const buildingOwn = 'owner'
+console.log(empireStateBuilding[buildingOwn]);
+
+empireStateBuilding['architect'];
+const buildingArch = 'architect'
+console.log(empireStateBuilding[buildingArch]);
